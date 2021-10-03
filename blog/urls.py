@@ -17,5 +17,5 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-    path('^$', views.pos_list, name='pos_list'),
+    path('blog/', views.pos_list, name='pos_list'),
 ]
