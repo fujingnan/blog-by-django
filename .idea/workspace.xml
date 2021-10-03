@@ -27,9 +27,33 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Django Server.blog-by-django">
+    <configuration name="blog-by-django" type="Python.DjangoServer" factoryName="Django server">
+      <module name="blog-by-django" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="mydjango" type="Python.DjangoServer" factoryName="Django server">
       <module name="mydjango" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -65,6 +89,7 @@
       <option name="presentableId" value="Default" />
       <updated>1631864894728</updated>
       <workItem from="1631864903204" duration="12119000" />
+      <workItem from="1633232532506" duration="4703000" />
     </task>
     <servers />
   </component>
@@ -72,9 +97,14 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1525" y="12" key="SettingsEditor" timestamp="1632364258714">
-      <screen x="1440" y="-648" width="1152" height="2048" />
+    <state x="62" y="-808" key="FileChooserDialogImpl" timestamp="1633232885772">
+      <screen x="-236" y="-1055" width="1920" height="1055" />
+    </state>
+    <state x="62" y="-808" key="FileChooserDialogImpl/0.25.1440.815/-236.-1055.1920.1055@-236.-1055.1920.1055" timestamp="1633232885772" />
+    <state x="-19" y="-895" key="SettingsEditor" timestamp="1633232896999">
+      <screen x="-236" y="-1055" width="1920" height="1055" />
     </state>
     <state x="1525" y="12" key="SettingsEditor/0.0.1440.900/1440.-648.1152.2048@1440.-648.1152.2048" timestamp="1632364258714" />
+    <state x="-19" y="-895" key="SettingsEditor/0.25.1440.815/-236.-1055.1920.1055@-236.-1055.1920.1055" timestamp="1633232896999" />
   </component>
 </project>
