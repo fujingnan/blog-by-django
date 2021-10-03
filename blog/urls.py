@@ -19,6 +19,4 @@ from django.conf.urls import url
 
 urlpatterns = [
     path('^$', views.pos_list, name='pos_list'),
-    # path('', include('blog.urls'))
-    # url(r'^', views.pos_list)
 ]
