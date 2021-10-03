@@ -15,7 +15,9 @@ Including another URLconf
 
 from django.urls import path
 from . import views
+from django.conf.urls import url
 
 urlpatterns = [
-    path('^$', views.pos_list, name='pos_list'),
+    # path('^$', views.pos_list, name='pos_list'),
+    url(r'^', views.pos_list)
 ]
