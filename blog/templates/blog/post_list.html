@@ -3,26 +3,33 @@
         <title>老婆日常</title>
     </head>
     <body>
+    {% for post in posts %}
         <div>
-            <h1>1. 老婆日常</h1>
-            <h2>可爱的老婆</h2>
+            <p>pubilished: {{ post.published_date }}</p>
+            <h1>{{ post.title }}</h1>
+        <p>{{ post.text|linebreaks }}</p>
         </div>
-
-        <div>
-            <h1>2. 波滴日常</h1>
-            <h2>可爱的波滴</h2>
-            <strong>波滴已经2岁了！</strong>
-        </div>
-
-        <div>
-            <h1>3. 多多日常</h1>
-            <h2>可爱的多多</h2>
-            <strong>多多已经6岁了！</strong>
-        </div>
-
-        <div>
-            <h1>4. 古灵精怪的茉莉</h1>
-            <strong>茉莉已经2岁了！</strong>
-        </div>
+    {%  endfor %}
+{#        <div>#}
+{#            <h1>1. 老婆日常</h1>#}
+{#            <h2>可爱的老婆</h2>#}
+{#        </div>#}
+{##}
+{#        <div>#}
+{#            <h1>2. 波滴日常</h1>#}
+{#            <h2>可爱的波滴</h2>#}
+{#            <strong>波滴已经2岁了！</strong>#}
+{#        </div>#}
+{##}
+{#        <div>#}
+{#            <h1>3. 多多日常</h1>#}
+{#            <h2>可爱的多多</h2>#}
+{#            <strong>多多已经6岁了！</strong>#}
+{#        </div>#}
+{##}
+{#        <div>#}
+{#            <h1>4. 古灵精怪的茉莉</h1>#}
+{#            <strong>茉莉已经2岁了！</strong>#}
+{#        </div>#}
     </body>
 </html>
